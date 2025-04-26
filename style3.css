@@ -1,0 +1,40 @@
+input[type ="radio"] {
+    display: none;
+}
+label img {
+    cursor: pointer;
+    
+}
+input[type="radio"]:checked + label img {
+    border: 2px solid blue;
+    }
+.c{
+  font-style: italic;
+  color: rgb(3, 76, 91);
+  text-align: center;
+  text-decoration: underline;
+  
+  
+}
+.d{
+    border: rgb(3, 76, 91) solid ;
+    text-align: center;
+    background-color: rgb(218, 247, 251);
+    border-radius: 50px;
+    width: 550px;
+    height: 500px;
+    padding-top: 40px;
+    margin-left: 500px;
+    
+}
+button{
+    cursor: pointer;
+}
+#moon{
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 650px;
+    bottom:  55px;
+
+}

@@ -1,0 +1,50 @@
+input[type ="radio"] {
+    display: none;
+}
+label img {
+    cursor: pointer;
+}
+input[type="radio"]:checked + label img {
+    border: 2px solid blue;
+    }
+  .v{
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    
+  }
+  .c{
+  padding-left: 50px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline;
+  
+  
+}
+.d{
+    border: rgb(255, 255, 255) solid ;
+    text-align: center;
+    background-color:rgb(2, 13, 37);
+    border-radius: 50px;
+    width: 550px;
+    height: 500px;
+    padding-top: 40px;
+    margin-left: 500px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+#sun{
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 650px;
+    bottom:  55px;
+
+}
